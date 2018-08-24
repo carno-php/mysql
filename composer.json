@@ -1,0 +1,27 @@
+{
+  "name": "carno-php/mysql",
+  "description": "SQL builder for MySQL",
+  "license": "MIT",
+  "require": {
+    "carno-php/database": "^1.0"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "~7"
+  },
+  "autoload": {
+    "psr-4": {
+      "Carno\\Database\\SQL\\": "src"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Carno\\Database\\SQL\\Tests\\": "tests"
+    }
+  },
+  "minimum-stability": "dev",
+  "extra": {
+    "branch-alias": {
+      "dev-master": "1.0-dev"
+    }
+  }
+}
